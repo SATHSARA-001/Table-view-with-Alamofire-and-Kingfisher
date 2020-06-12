@@ -10,6 +10,10 @@
 		237D8F8F182F3072064848CF /* Pods_HotelTableViewWithAlamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB5F4E560AD4EB89A29E1C7E /* Pods_HotelTableViewWithAlamofire.framework */; };
 		82A02110DFBE44CCBF602212 /* Pods_HotelTableViewWithAlamofireTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4969DF5D4A9C253476061D2 /* Pods_HotelTableViewWithAlamofireTests.framework */; };
 		9CF2D51857028824CCCFC04A /* Pods_HotelTableViewWithAlamofire_HotelTableViewWithAlamofireUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE7F97A166ED57E407DB9E30 /* Pods_HotelTableViewWithAlamofire_HotelTableViewWithAlamofireUITests.framework */; };
+		D0026780249355BD0018F12D /* UIScrollView+TPKeyboardAvoidingAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = D0026779249355BD0018F12D /* UIScrollView+TPKeyboardAvoidingAdditions.m */; };
+		D0026781249355BD0018F12D /* TPKeyboardAvoidingTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = D002677A249355BD0018F12D /* TPKeyboardAvoidingTableView.m */; };
+		D0026782249355BD0018F12D /* TPKeyboardAvoidingScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = D002677B249355BD0018F12D /* TPKeyboardAvoidingScrollView.m */; };
+		D0026783249355BD0018F12D /* TPKeyboardAvoidingCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = D002677D249355BD0018F12D /* TPKeyboardAvoidingCollectionView.m */; };
 		D0B18A7024929612001E84CE /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0B18A6F24929612001E84CE /* LoginViewController.swift */; };
 		D0BAF4E82490B7E5001D6E93 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0BAF4E72490B7E5001D6E93 /* AppDelegate.swift */; };
 		D0BAF4EA2490B7E5001D6E93 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0BAF4E92490B7E5001D6E93 /* SceneDelegate.swift */; };
@@ -21,6 +25,7 @@
 		D0BAF50A2490B7E6001D6E93 /* HotelTableViewWithAlamofireUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0BAF5092490B7E6001D6E93 /* HotelTableViewWithAlamofireUITests.swift */; };
 		D0BAF5182490C245001D6E93 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0BAF5172490C245001D6E93 /* TableViewCell.swift */; };
 		D0BAF51A2490C265001D6E93 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0BAF5192490C265001D6E93 /* Model.swift */; };
+		D0BD168D249376CA00F73440 /* RegisterUserVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0BD168C249376CA00F73440 /* RegisterUserVC.swift */; };
 		D0EF23762491E49B0020CF42 /* ViewDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0EF23752491E49B0020CF42 /* ViewDetails.swift */; };
 		D0EF23782492039A0020CF42 /* Map.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0EF23772492039A0020CF42 /* Map.swift */; };
 		D0EF23B8249242010020CF42 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0EF23B7249242010020CF42 /* MapViewController.swift */; };
@@ -50,6 +55,15 @@
 		846075807F4B284720B47735 /* Pods-HotelTableViewWithAlamofire-HotelTableViewWithAlamofireUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HotelTableViewWithAlamofire-HotelTableViewWithAlamofireUITests.release.xcconfig"; path = "Target Support Files/Pods-HotelTableViewWithAlamofire-HotelTableViewWithAlamofireUITests/Pods-HotelTableViewWithAlamofire-HotelTableViewWithAlamofireUITests.release.xcconfig"; sourceTree = "<group>"; };
 		C4969DF5D4A9C253476061D2 /* Pods_HotelTableViewWithAlamofireTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HotelTableViewWithAlamofireTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE7F97A166ED57E407DB9E30 /* Pods_HotelTableViewWithAlamofire_HotelTableViewWithAlamofireUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HotelTableViewWithAlamofire_HotelTableViewWithAlamofireUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0026777249355BD0018F12D /* TPKeyboardAvoidingScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPKeyboardAvoidingScrollView.h; sourceTree = "<group>"; };
+		D0026778249355BD0018F12D /* TPKeyboardAvoidingCollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPKeyboardAvoidingCollectionView.h; sourceTree = "<group>"; };
+		D0026779249355BD0018F12D /* UIScrollView+TPKeyboardAvoidingAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+TPKeyboardAvoidingAdditions.m"; sourceTree = "<group>"; };
+		D002677A249355BD0018F12D /* TPKeyboardAvoidingTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPKeyboardAvoidingTableView.m; sourceTree = "<group>"; };
+		D002677B249355BD0018F12D /* TPKeyboardAvoidingScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPKeyboardAvoidingScrollView.m; sourceTree = "<group>"; };
+		D002677C249355BD0018F12D /* UIScrollView+TPKeyboardAvoidingAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+TPKeyboardAvoidingAdditions.h"; sourceTree = "<group>"; };
+		D002677D249355BD0018F12D /* TPKeyboardAvoidingCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPKeyboardAvoidingCollectionView.m; sourceTree = "<group>"; };
+		D002677E249355BD0018F12D /* TPKeyboardAvoidingTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPKeyboardAvoidingTableView.h; sourceTree = "<group>"; };
+		D002677F249355BD0018F12D /* BarHopper-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "BarHopper-Bridging-Header.h"; sourceTree = "<group>"; };
 		D0B18A6F24929612001E84CE /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		D0BAF4E42490B7E5001D6E93 /* HotelTableViewWithAlamofire.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HotelTableViewWithAlamofire.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0BAF4E72490B7E5001D6E93 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -67,6 +81,7 @@
 		D0BAF50B2490B7E6001D6E93 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D0BAF5172490C245001D6E93 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
 		D0BAF5192490C265001D6E93 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		D0BD168C249376CA00F73440 /* RegisterUserVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterUserVC.swift; sourceTree = "<group>"; };
 		D0EF23752491E49B0020CF42 /* ViewDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewDetails.swift; sourceTree = "<group>"; };
 		D0EF23772492039A0020CF42 /* Map.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Map.swift; sourceTree = "<group>"; };
 		D0EF23B7249242010020CF42 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
@@ -126,6 +141,22 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		D0026776249355BD0018F12D /* TPKeyboardAvoidingScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				D0026777249355BD0018F12D /* TPKeyboardAvoidingScrollView.h */,
+				D0026778249355BD0018F12D /* TPKeyboardAvoidingCollectionView.h */,
+				D0026779249355BD0018F12D /* UIScrollView+TPKeyboardAvoidingAdditions.m */,
+				D002677A249355BD0018F12D /* TPKeyboardAvoidingTableView.m */,
+				D002677B249355BD0018F12D /* TPKeyboardAvoidingScrollView.m */,
+				D002677C249355BD0018F12D /* UIScrollView+TPKeyboardAvoidingAdditions.h */,
+				D002677D249355BD0018F12D /* TPKeyboardAvoidingCollectionView.m */,
+				D002677E249355BD0018F12D /* TPKeyboardAvoidingTableView.h */,
+				D002677F249355BD0018F12D /* BarHopper-Bridging-Header.h */,
+			);
+			path = TPKeyboardAvoidingScrollView;
+			sourceTree = "<group>";
+		};
 		D0BAF4DB2490B7E5001D6E93 = {
 			isa = PBXGroup;
 			children = (
@@ -155,10 +186,12 @@
 				D0BAF4E92490B7E5001D6E93 /* SceneDelegate.swift */,
 				D0BAF4EB2490B7E5001D6E93 /* ViewController.swift */,
 				D0BAF4ED2490B7E5001D6E93 /* Main.storyboard */,
+				D0BD168C249376CA00F73440 /* RegisterUserVC.swift */,
 				D0B18A6F24929612001E84CE /* LoginViewController.swift */,
 				D0EF23B7249242010020CF42 /* MapViewController.swift */,
 				D0EF23752491E49B0020CF42 /* ViewDetails.swift */,
 				D0EF23772492039A0020CF42 /* Map.swift */,
+				D0026776249355BD0018F12D /* TPKeyboardAvoidingScrollView */,
 				D0BAF5192490C265001D6E93 /* Model.swift */,
 				D0BAF5172490C245001D6E93 /* TableViewCell.swift */,
 				D0BAF4F02490B7E6001D6E93 /* Assets.xcassets */,
@@ -467,9 +500,14 @@
 				D0BAF5182490C245001D6E93 /* TableViewCell.swift in Sources */,
 				D0EF23782492039A0020CF42 /* Map.swift in Sources */,
 				D0BAF4E82490B7E5001D6E93 /* AppDelegate.swift in Sources */,
+				D0BD168D249376CA00F73440 /* RegisterUserVC.swift in Sources */,
 				D0BAF4EA2490B7E5001D6E93 /* SceneDelegate.swift in Sources */,
 				D0EF23762491E49B0020CF42 /* ViewDetails.swift in Sources */,
+				D0026781249355BD0018F12D /* TPKeyboardAvoidingTableView.m in Sources */,
+				D0026782249355BD0018F12D /* TPKeyboardAvoidingScrollView.m in Sources */,
 				D0EF23B8249242010020CF42 /* MapViewController.swift in Sources */,
+				D0026783249355BD0018F12D /* TPKeyboardAvoidingCollectionView.m in Sources */,
+				D0026780249355BD0018F12D /* UIScrollView+TPKeyboardAvoidingAdditions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
