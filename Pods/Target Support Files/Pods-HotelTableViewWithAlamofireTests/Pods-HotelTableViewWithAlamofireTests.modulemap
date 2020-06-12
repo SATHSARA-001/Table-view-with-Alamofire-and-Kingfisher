@@ -1,0 +1,6 @@
+framework module Pods_HotelTableViewWithAlamofireTests {
+  umbrella header "Pods-HotelTableViewWithAlamofireTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

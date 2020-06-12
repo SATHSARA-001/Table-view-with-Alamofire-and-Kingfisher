@@ -1,0 +1,5 @@
+#import <Foundation/Foundation.h>
+@interface PodsDummy_Pods_HotelTableViewWithAlamofire_HotelTableViewWithAlamofireUITests : NSObject
+@end
+@implementation PodsDummy_Pods_HotelTableViewWithAlamofire_HotelTableViewWithAlamofireUITests
+@end

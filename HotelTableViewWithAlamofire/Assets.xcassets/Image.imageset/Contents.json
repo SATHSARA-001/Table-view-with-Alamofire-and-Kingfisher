@@ -1,0 +1,23 @@
+{
+  "images" : [
+    {
+      "filename" : "169733-shiny-abstract-pink-and-blue-background-vector-image.jpg",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "filename" : "169733-shiny-abstract-pink-and-blue-background-vector-image-1.jpg",
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "filename" : "169733-shiny-abstract-pink-and-blue-background-vector-image-2.jpg",
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
